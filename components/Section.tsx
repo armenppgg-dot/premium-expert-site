@@ -6,7 +6,9 @@ type SectionProps = {
   children: ReactNode;
 };
 
-export default function Section({ id, title, children }: SectionProps) {
+export default function Section({
+  id, title, children
+}: SectionProps) {
   return (
     <section id={id} className="section">
       <div className="section-heading">
