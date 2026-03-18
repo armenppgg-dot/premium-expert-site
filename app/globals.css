@@ -121,6 +121,68 @@ cite {
   font-weight: 600;
 }
 
+@media (max-width: 767px) {
+  :root {
+    --section-gap: 1.125rem;
+    --section-padding: 1.25rem;
+    --inner-gap: 0.95rem;
+  }
+
+  .page {
+    padding: 0.875rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.56rem, 7vw, 1.92rem);
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+  }
+
+  .section h2 {
+    font-size: clamp(1.18rem, 5.2vw, 1.42rem);
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+  }
+
+  .faq-item h3 {
+    font-size: 0.98rem;
+    line-height: 1.32;
+  }
+
+  .hero-tag,
+  .eyebrow {
+    font-size: 0.73rem;
+    letter-spacing: 0.09em;
+  }
+
+  p,
+  li,
+  cite {
+    font-size: 0.97rem;
+    line-height: 1.68;
+  }
+
+  .list,
+  .stack {
+    gap: 0.8rem;
+    padding-left: 1.05rem;
+  }
+
+  .quote,
+  .faq-item {
+    padding: 1rem;
+  }
+
+  .quote {
+    gap: 0.5rem;
+  }
+
+  .button {
+    padding: 0.56rem 0.92rem;
+    font-size: 0.93rem;
+  }
+}
+
 @media (min-width: 768px) {
   :root {
     --section-gap: 1.25rem;
